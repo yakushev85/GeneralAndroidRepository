@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.alex.yakushev.app.soblocks.MainActivity">
+
+        <TextView
+            android:text="@string/LogoText"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:id="@+id/textView"
+            android:textSize="30sp"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:height="200dp" />
+
+        <Button
+            android:id="@+id/btnStartGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:fontFamily="casual"
+            android:text="@string/NewGameText"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/blue_button_selector"
+            android:shadowColor="#7777F7"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
+
+        <Button
+            android:id="@+id/btnScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:fontFamily="casual"
+            android:text="@string/ScoresText"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/red_button_shape"
+            android:shadowColor="#7777F7"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
+
+        <TextView
+            android:text="@string/AboutText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textStyle="normal|italic"
+            android:textAlignment="center"
+            android:gravity="bottom|center"
+            android:height="100dp" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-XXXXX/XXXXX">
+        </com.google.android.gms.ads.AdView>
+</LinearLayout>

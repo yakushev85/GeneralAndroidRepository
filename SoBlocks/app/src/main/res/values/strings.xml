@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SoBlocks</string>
+    <string name="LogoText">SoBlocks</string>
+    <string name="NewGameText">Start Game</string>
+    <string name="ScoresText">Scores</string>
+    <string name="ExitText">Exit</string>
+    <string name="AboutText">Created by Alex Yakushev.</string>
+    <string name="BackText">Back</string>
+    <string name="PauseText">Pause</string>
+    <string name="InitialValueScore">Scores: 0000</string>
+    <string name="InitialValueLevel">Level: 01</string>
+</resources>

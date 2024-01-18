@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alex.yakushev.app.soblocks.GameActivity" >
+
+    <item
+        android:id="@+id/game_pause_menuitem"
+        android:title="@string/PauseText"
+        />
+
+    <item
+        android:id="@+id/game_back"
+        android:title="@string/BackText"/>
+
+</menu>

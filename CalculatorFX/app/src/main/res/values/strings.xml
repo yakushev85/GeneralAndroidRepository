@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ChartCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Close</string>
+    <string name="copy_text">Copy Result</string>
+    <string name="created_by">Program created by Alex Iakushev.</string>
+
+    <string name="enter_function">Enter function or expression</string>
+    <string name="refresh">Refresh</string>
+    <string name="back">Back</string>
+
+    <string name="build_chart">Calculate</string>
+
+    <string name="digit0">0</string>
+    <string name="digit1">1</string>
+    <string name="digit2">2</string>
+    <string name="digit3">3</string>
+    <string name="digit4">4</string>
+    <string name="digit5">5</string>
+    <string name="digit6">6</string>
+    <string name="digit7">7</string>
+    <string name="digit8">8</string>
+    <string name="digit9">9</string>
+    <string name="dpoint">.</string>
+
+    <string name="breakbeg">(</string>
+    <string name="breakend">)</string>
+
+    <string name="op_plus">+</string>
+    <string name="op_minus">-</string>
+    <string name="op_div">/</string>
+    <string name="op_multy">*</string>
+    <string name="op_power">^</string>
+
+    <string name="del_char">del</string>
+    <string name="clear_all">clr</string>
+
+    <string name="var_pi">Pi</string>
+    <string name="var_x">x</string>
+    <string name="var_e">e</string>
+
+    <string name="func_sqrt">sqrt</string>
+    <string name="func_ln">ln</string>
+    <string name="func_exp">exp</string>
+    <string name="func_sin">sin</string>
+    <string name="func_cos">cos</string>
+    <string name="func_tan">tan</string>
+    <string name="func_asin">asin</string>
+    <string name="func_acos">acos</string>
+    <string name="func_atan">atan</string>
+
+    <string name="end_to_left">|&lt;&lt;</string>
+    <string name="to_left">&lt;&lt;</string>
+    <string name="end_to_right">&gt;&gt;|</string>
+    <string name="to_right">&gt;&gt;</string>
+
+
+    <string name="begin_point">Begin X:</string>
+    <string name="end_point">End X:</string>
+
+    <string name="err_pointsx">Wrong points x!</string>
+    <string name="err_emptyfunc">No function for chart!</string>
+
+    <string name="wait_msg">Please wait...</string>
+    <string name="press_msg">Press here for more information</string>
+</resources>

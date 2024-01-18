@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iakushev.android.chartbuilderfx.MainActivity" >
+
+    <item
+        android:id="@+id/action_copy_text"
+        android:title="@string/copy_text"
+        />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"/>
+
+    <item 
+        android:id="@+id/action_exit" 
+        android:title="@string/action_exit"/>
+
+</menu>

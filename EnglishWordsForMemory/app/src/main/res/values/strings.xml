@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">АнглийскийСловарьОбучалка</string>
+    <string name="learning_progress">Прогресс обучения</string>
+    <string name="learning_progress_init">Прогресс обучения 0.0%</string>
+    <string name="start_intro">Начать обучение</string>
+    <string name="start_voc">Открыть словарь</string>
+    <string name="english">English</string>
+    <string name="title_activity_learn">Учим слова&#8230;</string>
+    <string name="next">Дальше</string>
+    <string name="about">Version 1.0 created by Oleksandr Iakushev</string>
+    <string name="dialog_title">Удаление истории</string>
+    <string name="dialog_msg">Вы действительно хотите удалить историю обучения?</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+    <string name="cleared_history">Выученные слова удалены!</string>
+    <string name="title_activity_show_learned">Выученное</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="back">Назад</string>
+    <string name="Search">Поиск</string>
+    <string name="title_activity_show_dictionary">Словарь</string>
+    <string name="hint_learn_text">Введите английский перевод</string>
+    <string name="hint_dict_text">Введите слово или фразу для поиска</string>
+
+    <string name="menu_item_show_learned">Показать выученное</string>
+    <string name="menu_item_clear_learned">Очистить выученное</string>
+    <string name="menu_item_about">О программе</string>
+    <string name="menu_item_exit">Выход</string>
+</resources>
