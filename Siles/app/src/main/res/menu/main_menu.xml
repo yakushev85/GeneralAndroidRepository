@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item
+        android:id="@+id/settings_menu_item"
+        android:title="@string/settings_menu_text"
+        />
+
+    <item
+        android:id="@+id/export_menu_item"
+        android:title="@string/export_menu_text"/>
+
+</menu>

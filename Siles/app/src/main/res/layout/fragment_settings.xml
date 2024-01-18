@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.settings.SettingsFragment">
+
+    <CheckBox
+        android:id="@+id/voiceEnabledCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_text_voice_enabled"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"/>
+
+    <CheckBox
+        android:id="@+id/nameInMessageCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_text_names_msg"
+        android:layout_below="@id/voiceEnabledCheckBox"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/learnSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relearn"
+        android:layout_below="@id/nameInMessageCheckBox"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/editDataSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_data"
+        android:layout_below="@id/learnSettingsButton"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/applySettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apply_button_text"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Siles A Bot</string>
+    <string name="send">Отправить</string>
+    <string name="settings_menu_text">Настройки</string>
+    <string name="export_menu_text">Экспорт</string>
+    <string name="settings_text_voice_enabled">Голосовое проговаривание сообщений</string>
+    <string name="settings_text_names_msg">Имена в начале сообщений</string>
+    <string name="apply_button_text">Применить</string>
+    <string name="relearn">Переобучение</string>
+    <string name="relearn_done">Переобучение завершено</string>
+    <string name="edit_data">Редактировать данные</string>
+    <string name="done_text">Сделано!</string>
+    <string name="questions">Вопросы</string>
+    <string name="answers">ответы</string>
+    <string name="custom_class">Класс API</string>
+    <string name="save">Сохранить</string>
+    <string name="teachable_reaction">Обучаемая реакция</string>
+    <string name="insert">Добавить</string>
+    <string name="delete">Удалить</string>
+</resources>
